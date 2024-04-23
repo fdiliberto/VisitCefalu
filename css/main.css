@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#header {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/cefalu.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-highlight {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #173b5f;
+}
+
+#header-title-h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#header-subtitle-p {
+  font-size: 20px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.activities {
+  display: flex;
+  background-image: linear-gradient(#cdd2d4, #dbe2e8);
+  border-top: 5px solid #173b5f;
+  border-bottom: 5px solid #173b5f;
+}
+
+.activities img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #857b75;
+  height: 200px;
+}
+
+.activity {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  height: 400px;
+}
+
+.activity h2 {
+  color: #857b75;
+  font-size: 25px;
+}
+
+footer {
+  height: 300px;
+  background: #578cb4;
+  display: flex;
+  justify-content: center;
+}
+
+#your-guide-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+#your-guide-div img {
+  width: 200px;
+  border: 2px solid #16181b;
+  border-radius: 20px;
+  margin-right: 10px;
+}
